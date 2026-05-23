@@ -7,7 +7,7 @@ class Pali{
         System.out.println("enter the name");
         n=sc.nextLine();
         String rev="";
-        for(i = n.length()-1;i >=0;i--){
+        for(i = n.length()-1; i >=0; i--){
             rev = rev + n.charAt(i);
         }
         if(n.equals(rev)){
